@@ -13,7 +13,7 @@ The initial stage involves blurring the image to reduce noise, followed by trans
 ### Edge Detection using Sobel
 
 Sobel edge detection is utilized due to its resilience against minor pixel variations. It's applied along both x and y axes to generate an edge-detected image, providing a complete contours representation.
-![first step: Edges detection with Sobel](C:\Repositories\Opencv\LaneDetection\LaneDetection\First_step.png)
+![first step: Edges detection with Sobel](..\LaneDetection\First_step.png)
 
 ### Binary Thresholding
 
