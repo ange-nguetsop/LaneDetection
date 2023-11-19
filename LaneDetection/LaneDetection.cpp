@@ -68,7 +68,7 @@ int main()
     cv::threshold(sobelCombined, sobelCombined, 115, 255, cv::THRESH_BINARY); // faire varier la valeur de threshold en fonction de la qualité de l'image
      
     //Display the Sobel edge-detected images
-    //cv::imshow("Sobel Combined", sobelCombined);
+    cv::imwrite("Sobel.png", sobelCombined);
 
     // Apply binary thresholding on the S channel
     int thresholdValue = 80; // Adjust this threshold value as needed
